@@ -13,7 +13,7 @@ inquirer.prompt([
   },
   {
     type: "input",
-    name: "discription",
+    name: "description",
     message: "Enter short project description: ",
   },
   {
@@ -24,7 +24,7 @@ inquirer.prompt([
   {
     type: "input",
     message: "Enter the usage of the project: ",
-    name: "usage"
+    name: "usages"
 
   },
   {
@@ -53,7 +53,7 @@ inquirer.prompt([
     title: response.title,
     description: response.description,
     installation: response.installation,
-    usages: response.usage,
+    usages: response.usages,
     licenses: response.licenses,
     tests: response.tests,
     contribute: response.contribute,
@@ -64,8 +64,27 @@ inquirer.prompt([
   console.log(data)
   // var markDown = "# " + data.title
   var markDown = `# ${data.title}\n
+  ## Description \n
   ${data.description}\n
-  ## ${data.installation}
+  ## Table of Contents\n
+  * [Installation](#installation)
+  * [Usages](#usages)
+  * [Contribute](#contribute)
+  * [License](#license)
+  * [tests](#tests)
+  ## Installation\n
+  ${data.installation}\n
+  ## Usages
+
+  ${data.usages}\n
+  ## tests 
+  ${data.tests}\n
+  ## Contribute
+  ${data.contribute}\n
+  ## License
+  ${data.licenses}
+  
+  
   `
   fs.writeFile("README.md", markDown, function (error) {
     error ? console.error(error) : console.log('successfully wrote README')

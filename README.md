@@ -1,6 +1,32 @@
-# Good README Generator version v1.0.0
+# Good README Generator
 
-  undefined
+  ## Description 
 
-  ##installation
+  gotta make it work
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usages](#usages)
+  * [Contribute](#contribute)
+  * [License](#license)
+  * 
+  ## Installation
+
+  install
+
+  ## Usages
+
+  usages
+
+  ## tests 
+  test
+
+  ## Contribute
+  contribute
+
+  ## License
+  MIT
+  
+  
   
