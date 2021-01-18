@@ -1,8 +1,9 @@
-# Good README Generator
+[purnagurung903](git@github.com:purnagurung903/Readmegenerator.git)
+# Good README.md Generator
 
   ## Description 
 
-  gotta make it work
+  In this project i am creating command-line application generates a professional README.md file from a user's input using inqueirer package.
 
   ## Table of Contents
 
@@ -10,14 +11,16 @@
   * [Usages](#usages)
   * [Contribute](#contribute)
   * [License](#license)
-  * 
+  * [tests](#tests)
+  * [Questions](#Questions)
+  
   ## Installation
 
-  install
+  clone or download this repo to your machine to install.Once done, install inquirer via npm.
 
   ## Usages
 
-  usages
+  You can run node.js through terminal and answer the prompt questions and create a file into your project's directory.
 
   ## tests 
   test
@@ -27,6 +30,12 @@
 
   ## License
   MIT
+
+  ## Questions
+  If you have any question you can email me at purnagurung903@gmail.com
+
+  Copyright [2021][undefined]
+
   
   
   
