@@ -3,9 +3,9 @@ const fs = require("fs")
 inquirer.prompt([
   {
     type: "input",
-    name: "username",
+    name: "Github",
     message: "Enter your Github username: ",
-    default: "[purnagurung903](git@github.com:purnagurung903/Readmegenerator.git)",
+    //default: "[purnagurung903](git@github.com:purnagurung903/Readmegenerator.git)",
   },
   {
     type: "input",
@@ -47,7 +47,7 @@ inquirer.prompt([
     type: "input",
     name: "email",
     message: "Where can i ask you Questions:",
-    //default: "If you have any question you can email me at purnagurung903@gmail.com"
+    
   },
   {
     type: "input",
@@ -60,7 +60,7 @@ inquirer.prompt([
   const data =
   {
     name: response.name,
-    username: response.username,
+    Github: response.Github,
     //url: response.html_url,
     title: response.title,
     description: response.description,
@@ -76,7 +76,7 @@ inquirer.prompt([
   }
   console.log(data)
   // var markDown = "# " + data.title
-  var markDown = `${data.username}\n# ${data.title}\n
+  var markDown = `# ${data.title}\n
   ## Description \n
   ${data.description}\n
   ## Table of Contents\n
@@ -100,7 +100,7 @@ inquirer.prompt([
   ${data.licenses}\n
   ## Questions
   ${data.email}\n
-  Copyright [2021][${data.copyright}]
+  Copyright [2021]([${data.copyowner}])
 
   
   

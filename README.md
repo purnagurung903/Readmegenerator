@@ -1,4 +1,3 @@
-[purnagurung903](git@github.com:purnagurung903/Readmegenerator.git)
 # Good README.md Generator
 
   ## Description 
@@ -16,17 +15,17 @@
   
   ## Installation
 
-  clone or download this repo to your machine to install.Once done, install inquirer via npm.
+  Clone or download this repo to your machine to install.Once done, install inquirer via npm.
 
   ## Usages
 
   You can run node.js through terminal and answer the prompt questions and create a file into your project's directory.
 
   ## tests 
-  test
+  Tests
 
   ## Contribute
-  contribute
+  Contribute
 
   ## License
   MIT
@@ -34,7 +33,7 @@
   ## Questions
   If you have any question you can email me at purnagurung903@gmail.com
 
-  Copyright [2021][undefined]
+  Copyright [2021]([Purna Gurung])
 
   
   
